@@ -4,3 +4,5 @@ WASD·방향키로 이동하거나 화면을 누른 채 드래그합니다. 자�
 GitHub 저장소 루트에 app.py, requirements.txt, README.md, game/을 올리세요. Streamlit Community Cloud에서 해당 저장소와 브랜치를 선택하고 Main file path에 app.py를 입력해 Deploy하세요. 기존 저장소는 같은 위치의 파일을 교체하세요.
 
 로컬: pip install -r requirements.txt 후 streamlit run app.py
+
+화면: 1920×1080 고정 렌더링, 16:9 비율 유지. 레벨업 시 16종 중 무작위 3개 선택.
