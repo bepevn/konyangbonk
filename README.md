@@ -5,4 +5,4 @@ GitHub 저장소 루트에 app.py, requirements.txt, README.md, game/을 올리�
 
 로컬: pip install -r requirements.txt 후 streamlit run app.py
 
-화면: 1920×1080 고정 렌더링, 16:9 비율 유지. 레벨업 시 16종 중 무작위 3개 선택.
+1920×1080 · 무기 6종 · 폭탄과 자석은 접촉하면 발동합니다.
