@@ -1,6 +1,6 @@
-# NEON VAULT
-압축을 풀고 app.py, requirements.txt, game 폴더를 그대로 GitHub 저장소 루트에 올리세요. Streamlit Community Cloud에서 Create app을 선택하고 저장소와 브랜치를 고른 뒤 Main file path를 app.py로 지정하고 Deploy를 누르세요.
+# NEON VAULT — NIGHT SHIFT
+WASD·방향키로 이동하거나 화면을 누른 채 드래그합니다. 자동 사격, 경험치 수집, 레벨업 선택. Esc 일시정지. 클래식은 15분간 생존 후 5·10·15분 보스까지 모두 처치하면 승리합니다. 최종 보스전은 제한 시간 없이 이어집니다. 무한은 사망할 때까지 5분마다 보스가 추가됩니다.
 
-로컬 실행: `pip install -r requirements.txt` 이후 `streamlit run app.py`.
+GitHub 저장소 루트에 app.py, requirements.txt, README.md, game/을 올리세요. Streamlit Community Cloud에서 해당 저장소와 브랜치를 선택하고 Main file path에 app.py를 입력해 Deploy하세요. 기존 저장소는 같은 위치의 파일을 교체하세요.
 
-WASD 이동, 마우스 조준, 클릭/Space 발사, Esc 일시정지. 브라우저에서 마우스 고정이 제한되면 드래그로 조준하세요. 슈트나 코어가 파괴되면 패배합니다.
+로컬: pip install -r requirements.txt 후 streamlit run app.py
